@@ -51,8 +51,15 @@
 /* Optional SMT LED pins */
 #define RGB_DI_PIN E6
 #define RGBLED_NUM 10
-#define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_SLEEP
+
+/* Mousekey stuff */
+#define MOUSEKEY_DELAY             200
+#define MOUSEKEY_INTERVAL          60
+#define MOUSEKEY_MAX_SPEED         50
+#define MOUSEKEY_TIME_TO_MAX       80
+#define MOUSEKEY_WHEEL_MAX_SPEED   8
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 15
 
 /* Optional encoder pins */
 #define ENCODERS_PAD_A { B5 }
